@@ -5,10 +5,12 @@ const Contact = () => (
   <Layout>
     <h1>Contact</h1>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dignissimos
-      aut consequuntur aspernatur corrupti ratione, odit similique tenetur
-      accusantium, est nostrum esse minus iure voluptatum nihil cumque
-      blanditiis non? Odit.
+      Criticality scope creep streamline, and t-shaped individual nor this is a 
+      no-brainer. Red flag core competencies. Let's put a pin in that. Prairie 
+      dogging high touch client today shall be a cloudy day, thanks to blue sky 
+      thinking, we can now deploy our new ui to the cloud , for deploy, yet 
+      marketing computer development html roi feedback team website and best 
+      practices design thinking.
     </p>
   </Layout>
 );
