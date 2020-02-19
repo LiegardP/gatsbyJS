@@ -5,6 +5,7 @@ import "./post.css";
 
 const Post = ({ title, author, date, description, path }) => (
   <div className="post">
+    { console.log(author) }
     <h3 className="post-title">{ title }</h3>
     <p className="post-description">{ description }</p>
     <p className="post-written-by">Written by { author } on { date }</p>

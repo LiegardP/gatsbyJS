@@ -35,6 +35,9 @@ export const AllBlogsQuery = graphql`
           frontmatter {
             date
             title
+            description
+            author
+            path
           }
         }
       }
