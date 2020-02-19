@@ -1,8 +1,8 @@
 ---
-path: '/my-first-gatsby-blog'
+path: '/my-third-gatsby-blog'
 date: '2020-01-01'
 title: 'My First Gatsby Blog'
-author: 'Pierre Liegard'
+author: 'Pete Liegard'
 description: 'This is my very first blog of 2020!'
 ---
 
