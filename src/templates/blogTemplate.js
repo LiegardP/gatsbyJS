@@ -7,6 +7,7 @@ import "./blogTemplate.css";
 
 export default function Template({ data }) {
   const post = data.markdownRemark;
+  console.log('post => ', post);
   const { title, author, date } = post.frontmatter;
   
   return (

@@ -1,5 +1,5 @@
 ---
-path: '/my-first-gatsby-blog'
+path: '/my-first-gatsby-blog/'
 date: '2020-01-01'
 title: 'April fools'
 author: 'Pierre Liegard'
