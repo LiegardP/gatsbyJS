@@ -26,7 +26,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                 component: postTemplate
             })
         })
-        resolve()
     })
 };
 
