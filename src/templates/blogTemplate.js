@@ -1,4 +1,3 @@
-// templates/blogTemplate.js
 import React from "react";
 import { graphql, Link } from "gatsby";
 
@@ -7,13 +6,13 @@ import "./blogTemplate.css";
 
 export default function Template({ data }) {
   const post = data.markdownRemark;
-  console.log('post => ', post);
+  console.log(post);
   const { title, author, date } = post.frontmatter;
-  
+
   return (
     <Layout>
       <div className='blogTemplate'>
-        <Link to="/">Back to blogs</Link>
+        <Link to="/blog">Back to blogs</Link>
         <h1 className="blogTemplate-title">{ title }</h1>
         <p className='blogTemplate-posted-by'>Posted by { author } on { date }</p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
