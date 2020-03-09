@@ -1,0 +1,10 @@
+.top-banner {
+    width: 100%
+}
+
+.top-banner__container {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: midnightblue;
+}

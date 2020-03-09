@@ -6,7 +6,7 @@ import { graphql } from "gatsby";
 
 const Blog = ({data}) => (
   <Layout>
-    <h1>Blog</h1>
+    <h1>Tutoriaux</h1>
     {
       data.allMarkdownRemark.edges.map(post => {
         const {title, author, date, description, path } = post.node.frontmatter;

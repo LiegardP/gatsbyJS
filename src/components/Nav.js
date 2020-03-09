@@ -14,18 +14,39 @@ const Nav = () => (
         </Link>
       </li>
       <li className="nav-list-item">
-        <Link  
+        <Link
           activeStyle={{ borderBottom: "2px solid #a64ac9" }}
-          to="/about">
-          About
-       </Link>
+	        to="/articles">
+          Articles
+        </Link>
       </li>
       <li className="nav-list-item">
         <Link  
           activeStyle={{ borderBottom: "2px solid #a64ac9" }}
           to="/blog">
-          Blog
+          Tutoriaux
         </Link>
+      </li>
+      <li className="nav-list-item">
+        <Link
+          activeStyle={{ borderBottom: "2px solid #a64ac9" }}
+	        to="/team">
+          Team
+        </Link>
+      </li>
+      <li className="nav-list-item">
+        <Link
+          activeStyle={{ borderBottom: "2px solid #a64ac9" }}
+	        to="/jobs">
+          Jobs
+        </Link>
+      </li>
+      <li className="nav-list-item">
+        <Link  
+          activeStyle={{ borderBottom: "2px solid #a64ac9" }}
+          to="/about">
+          About
+       </Link>
       </li>
       <li className="nav-list-item">
         <Link  
