@@ -51,13 +51,6 @@ const Nav = () => (
       <li className="nav-list-item">
         <Link  
           activeStyle={{ borderBottom: "2px solid #a64ac9" }}
-          to="/about">
-          About
-       </Link>
-      </li>
-      <li className="nav-list-item">
-        <Link  
-          activeStyle={{ borderBottom: "2px solid #a64ac9" }}
           to="/contact">
           Contact
         </Link>
